@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Cabin:ital,wght@0,400..700;1,400..700&family=News+Cycle:wght@400;700&family=Orbitron:wght@400..900&family=Silkscreen:wght@400;700&display=swap");
+.output-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Output-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  border: 3px solid lime;
+  width: 32%;
+  border-radius: 20px;
+  padding: 20px;
+}
+.Output-container h1 {
+  color: lime;
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 0px;
+}

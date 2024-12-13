@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Cabin:ital,wght@0,400..700;1,400..700&family=News+Cycle:wght@400;700&family=Orbitron:wght@400..900&family=Silkscreen:wght@400;700&display=swap");
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.644); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: black;
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: lime;
+  margin: auto;
+  padding: 20px;
+  border: 3px solid lime;
+  border-radius: 10px;
+  width: 40%;
+}
+.okay {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.okay button {
+  background-color: black;
+  color: lime;
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+  font-style: normal;
+  border: 3px solid lime;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
