@@ -5,10 +5,12 @@ import { useState } from "react";
 
 function App() {
   const [output, setOutput] = useState([]);
+  const [userData, setUserData] = useState({});
   const inputHandler = (data) => {
     setOutput((prevData) => {
       return [...prevData, data];
     });
+    setUserData(data);
   };
   console.log(output, "output");
   return (
@@ -17,7 +19,7 @@ function App() {
       {!output.length && (
         <p className="IFNODATA">Please enter username and age.</p>
       )}
-      {output.length && <Output output={output} />}
+      {output.length && <Output userData={userData} output={output} />}
     </div>
   );
 }

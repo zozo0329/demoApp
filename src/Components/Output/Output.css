@@ -21,6 +21,11 @@
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  border-radius: 20px;
   margin: 0px;
+  cursor: pointer;
+  padding: 0px 10px 0px 10px;
+  transition: all 0.4s;
+}
+.Output-container h1:hover {
+  transform: scale(1.1);
 }
