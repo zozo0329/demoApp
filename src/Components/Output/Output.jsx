@@ -12,7 +12,7 @@ const Output = (props) => {
       <div className="Output-container">
         {props.output.map((value, i) => {
           return (
-            <h1 key={i} onClick={clickHandler}>
+            <h1 key={props.output.id} onClick={clickHandler}>
               {value.username} ({value.age} Y/O)
             </h1>
           );

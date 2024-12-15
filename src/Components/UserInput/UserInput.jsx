@@ -39,6 +39,7 @@ const UserInput = (props) => {
     const userData = {
       username,
       age,
+      id: Math.random.toString(),
     };
     props.inputHandler(userData);
     setIsUsernameError(false);
